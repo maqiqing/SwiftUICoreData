@@ -8,6 +8,7 @@
 import UIKit
 import Combine
 
+//https://betterprogramming.pub/observing-keyboard-changes-in-swiftui-96dd06a2b952
 class KeyboardManager: ObservableObject {
     
     @Published var keyboardHeight: CGFloat = 0
